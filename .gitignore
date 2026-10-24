@@ -1,0 +1,29 @@
+
+# Dataset - do not upload
+images/
+annotations/
+no_helmet_images/
+
+# YOLO training results and weights
+runs/
+weights/
+*.pt
+*.onnx
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
